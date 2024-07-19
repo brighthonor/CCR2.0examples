@@ -1,0 +1,197 @@
+DIGEST 8cd99205578f9167d939348c4b6a5149
+FSimComp.tutorial.slowadd.SlowAdd0
+R30:35 SimComp.Coqlib <> <> lib
+R53:62 SimComp.definition.ImpPrelude <> <> lib
+R80:82 SimComp.STS <> <> lib
+R100:107 SimComp.Behavior <> <> lib
+R125:130 SimComp.ModSem <> <> lib
+R148:155 SimComp.Skeleton <> <> lib
+R173:175 SimComp.PCM <> <> lib
+R193:200 SimComp.HoareDef <> <> lib
+R218:237 Coq.Relations.Relation_Definitions <> <> lib
+R239:256 Coq.Relations.Relation_Operators <> <> lib
+R258:270 Coq.Classes.RelationPairs <> <> lib
+R288:292 SimComp.sProp <> <> lib
+R294:299 SimComp.sWorld <> <> lib
+R301:305 SimComp.World <> <> lib
+R307:309 SimComp.SRF <> <> lib
+R327:335 SimComp.ProofMode <> <> lib
+R337:346 SimComp.IProofMode <> <> lib
+R348:355 SimComp.ITactics <> <> lib
+sec 392:394 <> IMP
+R414:420 SimComp.sWorld CtxWD t class
+binder 410:411 <> _W:15
+def 754:758 <> plusF
+R774:777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R766:769 Coq.Init.Datatypes <> list ind
+R771:773 SimComp.definition.ImpPrelude <> val ind
+R778:782 ITree.Core.ITreeDefinition <> itree corec
+R790:792 SimComp.definition.ImpPrelude <> val ind
+R784:788 SimComp.HoareDef <> hAGEs def
+binder 805:808 <> args:16
+R820:823 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'<-'_x_';;'_x not
+R844:858 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'<-'_x_';;'_x not
+R824:824 SimComp.ModSemE <> :::x_'?' not
+R842:843 SimComp.ModSemE <> :::x_'?' not
+R825:829 SimComp.definition.ImpPrelude <> pargs def
+R838:841 SimComp.tutorial.slowadd.SlowAdd0 <> args:16 var
+R831:831 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R836:836 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R832:835 SimComp.definition.ImpPrelude <> Tint constr
+binder 819:819 <> n:17
+R859:861 ITree.Core.ITreeDefinition <> Ret syndef
+R864:867 SimComp.definition.ImpPrelude <> Vint constr
+R871:873 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R870:870 SimComp.tutorial.slowadd.SlowAdd0 <> n:17 var
+def 893:898 <> minusF
+R914:917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R906:909 Coq.Init.Datatypes <> list ind
+R911:913 SimComp.definition.ImpPrelude <> val ind
+R918:922 ITree.Core.ITreeDefinition <> itree corec
+R930:932 SimComp.definition.ImpPrelude <> val ind
+R924:928 SimComp.HoareDef <> hAGEs def
+binder 945:948 <> args:18
+R960:963 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'<-'_x_';;'_x not
+R984:998 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'<-'_x_';;'_x not
+R964:964 SimComp.ModSemE <> :::x_'?' not
+R982:983 SimComp.ModSemE <> :::x_'?' not
+R965:969 SimComp.definition.ImpPrelude <> pargs def
+R978:981 SimComp.tutorial.slowadd.SlowAdd0 <> args:18 var
+R971:971 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R976:976 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R972:975 SimComp.definition.ImpPrelude <> Tint constr
+binder 959:959 <> n:19
+R999:1001 ITree.Core.ITreeDefinition <> Ret syndef
+R1004:1007 SimComp.definition.ImpPrelude <> Vint constr
+R1011:1013 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1010:1010 SimComp.tutorial.slowadd.SlowAdd0 <> n:19 var
+def 1036:1039 <> addF
+R1055:1058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1047:1050 Coq.Init.Datatypes <> list ind
+R1052:1054 SimComp.definition.ImpPrelude <> val ind
+R1059:1063 ITree.Core.ITreeDefinition <> itree corec
+R1071:1073 SimComp.definition.ImpPrelude <> val ind
+R1065:1069 SimComp.HoareDef <> hAGEs def
+binder 1086:1089 <> args:20
+R1100:1100 SimComp.ITreelib ITreeNotations2 ::itree_scope:''''_x_'<-'_x_';;'_x not
+R1107:1110 SimComp.ITreelib ITreeNotations2 ::itree_scope:''''_x_'<-'_x_';;'_x not
+R1137:1145 SimComp.ITreelib ITreeNotations2 ::itree_scope:''''_x_'<-'_x_';;'_x not
+R1111:1111 SimComp.ModSemE <> :::x_'?' not
+R1135:1136 SimComp.ModSemE <> :::x_'?' not
+R1112:1116 SimComp.definition.ImpPrelude <> pargs def
+R1131:1134 SimComp.tutorial.slowadd.SlowAdd0 <> args:20 var
+R1118:1118 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1123:1124 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1129:1129 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1119:1122 SimComp.definition.ImpPrelude <> Tint constr
+R1125:1128 SimComp.definition.ImpPrelude <> Tint constr
+R1101:1101 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1103:1104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1106:1106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 1105:1105 <> m:21
+binder 1102:1102 <> n:22
+binder 1101:1106 <> pat:23
+R1146:1148 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R1160:1171 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R1184:1195 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R1196:1196 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1199:1200 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1204:1207 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1230:1243 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1208:1213 SimComp.ModSem <> ccallU def
+R1222:1222 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1229:1229 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1223:1226 SimComp.definition.ImpPrelude <> Vint constr
+R1228:1228 SimComp.tutorial.slowadd.SlowAdd0 <> n:22 var
+R1201:1203 SimComp.definition.ImpPrelude <> val ind
+binder 1197:1198 <> r1:24
+R1244:1244 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1247:1248 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1252:1255 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1279:1292 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1256:1261 SimComp.ModSem <> ccallU def
+R1271:1271 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1278:1278 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1272:1275 SimComp.definition.ImpPrelude <> Vint constr
+R1277:1277 SimComp.tutorial.slowadd.SlowAdd0 <> m:21 var
+R1249:1251 SimComp.definition.ImpPrelude <> val ind
+binder 1245:1246 <> r2:25
+R1293:1293 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1296:1297 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1301:1304 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1326:1339 SimComp.ITreelib ITreeNotations2 ::itree_scope:'`'_x_':'_x_'<-'_x_';;'_x not
+R1305:1310 SimComp.ModSem <> ccallU def
+R1318:1318 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1321:1322 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1325:1325 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1319:1320 SimComp.tutorial.slowadd.SlowAdd0 <> r1:24 var
+R1323:1324 SimComp.tutorial.slowadd.SlowAdd0 <> r2:25 var
+R1298:1300 SimComp.definition.ImpPrelude <> val ind
+binder 1294:1295 <> rr:26
+R1340:1342 ITree.Core.ITreeDefinition <> Ret syndef
+R1344:1345 SimComp.tutorial.slowadd.SlowAdd0 <> rr:26 var
+R1172:1174 ITree.Core.ITreeDefinition <> Ret syndef
+R1177:1180 SimComp.definition.ImpPrelude <> Vint constr
+R1182:1182 SimComp.tutorial.slowadd.SlowAdd0 <> n:22 var
+R1151:1155 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R1150:1150 SimComp.tutorial.slowadd.SlowAdd0 <> m:21 var
+def 1364:1369 <> AddSem
+R1372:1380 SimComp.HoareDef HModSem t rec
+R1392:1405 SimComp.HoareDef HModSem fnsems proj
+R1392:1405 SimComp.HoareDef HModSem fnsems proj
+R1392:1405 SimComp.HoareDef HModSem fnsems proj
+R1485:1502 SimComp.HoareDef HModSem initial_st proj
+R1485:1502 SimComp.HoareDef HModSem initial_st proj
+R1522:1541 SimComp.HoareDef HModSem initial_cond proj
+R1522:1541 SimComp.HoareDef HModSem initial_cond proj
+R1410:1410 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1432:1433 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1457:1458 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1478:1478 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1411:1411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1418:1419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1431:1431 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1420:1424 SimComp.ModSem <> cfunU def
+R1426:1430 SimComp.tutorial.slowadd.SlowAdd0 <> plusF def
+R1434:1434 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1442:1443 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1456:1456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1444:1448 SimComp.ModSem <> cfunU def
+R1450:1455 SimComp.tutorial.slowadd.SlowAdd0 <> minusF def
+R1459:1459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1465:1466 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1477:1477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1467:1471 SimComp.ModSem <> cfunU def
+R1473:1476 SimComp.tutorial.slowadd.SlowAdd0 <> addF def
+R1507:1509 ITree.Core.ITreeDefinition <> Ret syndef
+R1513:1515 SimComp.Any <> :::x_'↑' not
+R1511:1512 Coq.Init.Datatypes <> tt constr
+R1546:1548 iris.bi.interface <> ::bi_scope:'emp' not
+def 1613:1615 <> Add
+R1618:1623 SimComp.HoareDef HMod t rec
+R1635:1649 SimComp.HoareDef HMod get_modsem proj
+R1635:1649 SimComp.HoareDef HMod get_modsem proj
+R1635:1649 SimComp.HoareDef HMod get_modsem proj
+R1675:1681 SimComp.HoareDef HMod sk proj
+R1675:1681 SimComp.HoareDef HMod sk proj
+R1663:1668 SimComp.tutorial.slowadd.SlowAdd0 <> AddSem def
+R1686:1686 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1704:1705 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1724:1725 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1742:1742 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1687:1687 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1694:1695 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1703:1703 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1700:1702 SimComp.Any <> :::x_'↑' not
+R1696:1699 SimComp.definition.ImpPrelude <> Gfun constr
+R1706:1706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1714:1715 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1723:1723 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1720:1722 SimComp.Any <> :::x_'↑' not
+R1716:1719 SimComp.definition.ImpPrelude <> Gfun constr
+R1726:1726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1732:1733 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1741:1741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1738:1740 SimComp.Any <> :::x_'↑' not
+R1734:1737 SimComp.definition.ImpPrelude <> Gfun constr
+R1761:1763 SimComp.tutorial.slowadd.SlowAdd0 IMP <> sec

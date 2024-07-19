@@ -1,0 +1,130 @@
+DIGEST 14bc30481376ff67edde30f13b2a6cb1
+FSimComp.tutorial.singleton.Singleton1
+R29:34 SimComp.Coqlib <> <> lib
+R52:61 SimComp.definition.ImpPrelude <> <> lib
+R79:81 SimComp.STS <> <> lib
+R99:106 SimComp.Behavior <> <> lib
+R124:129 SimComp.ModSem <> <> lib
+R147:154 SimComp.Skeleton <> <> lib
+R172:174 SimComp.PCM <> <> lib
+R192:199 SimComp.HoareDef <> <> lib
+R201:207 SimComp.OpenDef <> <> lib
+R225:233 SimComp.ProofMode <> <> lib
+R251:260 SimComp.IProofMode <> <> lib
+R262:269 SimComp.ITactics <> <> lib
+R287:289 SimComp.STB <> <> lib
+R307:311 SimComp.sProp <> <> lib
+R313:318 SimComp.sWorld <> <> lib
+R320:324 SimComp.World <> <> lib
+R326:328 SimComp.SRF <> <> lib
+R347:357 SimComp.tutorial.singleton.SingletonRA <> <> lib
+sec 394:396 <> SPC
+R415:427 SimComp.tutorial.singleton.SingletonRA SingletonRA t class
+binder 411:412 <> _S:17
+def 556:565 <> singletonA
+R576:579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R568:571 Coq.Init.Datatypes <> list ind
+R573:575 SimComp.definition.ImpPrelude <> val ind
+R580:584 ITree.Core.ITreeDefinition <> itree corec
+R590:592 SimComp.definition.ImpPrelude <> val ind
+R586:588 SimComp.HoareDef <> hEs def
+binder 605:608 <> args:18
+R620:623 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'<-'_x_';;'_x not
+R640:648 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'<-'_x_';;'_x not
+R624:624 SimComp.ModSemE <> :::x_'?' not
+R638:639 SimComp.ModSemE <> :::x_'?' not
+R625:629 SimComp.definition.ImpPrelude <> pargs def
+R634:637 SimComp.tutorial.singleton.Singleton1 <> args:18 var
+R631:632 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R649:651 ITree.Core.ITreeDefinition <> Ret syndef
+R654:657 SimComp.definition.ImpPrelude <> Vint constr
+def 677:690 <> singleton_spec
+R693:697 SimComp.HoareDef <> fspec rec
+R706:717 SimComp.IProofMode <> mk_fspec_inv def
+R739:747 SimComp.HoareDef <> mk_simple def
+R806:806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R814:838 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R902:927 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R968:976 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R807:813 SimComp.HoareDef <> ord_top constr
+binder 843:846 <> varg:19
+R882:886 SimComp.IPM <> :::x_'**'_x not
+R898:898 SimComp.IPM <> :::x_'**'_x not
+R852:854 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R879:881 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R859:861 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R855:858 SimComp.tutorial.singleton.Singleton1 <> varg:19 var
+R862:862 SimComp.Any <> :::x_'↑' not
+R875:878 SimComp.Any <> :::x_'↑' not
+R865:866 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R867:870 Coq.Init.Datatypes <> list ind
+R872:874 SimComp.definition.ImpPrelude <> val ind
+R863:864 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R887:890 SimComp.IPM <> OwnM def
+R893:896 SimComp.tutorial.singleton.SingletonRA <> Ball def
+binder 932:935 <> vret:20
+R941:943 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R962:964 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R948:950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R944:947 SimComp.tutorial.singleton.Singleton1 <> vret:20 var
+R951:951 SimComp.Any <> :::x_'↑' not
+R958:961 SimComp.Any <> :::x_'↑' not
+R952:955 SimComp.definition.ImpPrelude <> Vint constr
+R753:756 Coq.Init.Datatypes <> unit ind
+def 995:1007 <> SingletonSbtb
+R1010:1013 Coq.Init.Datatypes <> list ind
+R1022:1024 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1016:1021 Coq.Strings.String <> string ind
+R1025:1033 SimComp.HoareDef <> fspecbody rec
+R1043:1043 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1104:1104 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1044:1044 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1056:1057 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1103:1103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1058:1068 SimComp.HoareDef <> mk_specbody constr
+R1086:1090 SimComp.ModSem <> cfunU def
+R1092:1101 SimComp.tutorial.singleton.Singleton1 <> singletonA def
+R1070:1083 SimComp.tutorial.singleton.Singleton1 <> singleton_spec def
+def 1121:1133 <> SSingletonSem
+R1136:1144 SimComp.HoareDef SModSem t rec
+R1162:1175 SimComp.HoareDef SModSem fnsems proj
+R1162:1175 SimComp.HoareDef SModSem fnsems proj
+R1162:1175 SimComp.HoareDef SModSem fnsems proj
+R1201:1220 SimComp.HoareDef SModSem initial_cond proj
+R1201:1220 SimComp.HoareDef SModSem initial_cond proj
+R1245:1262 SimComp.HoareDef SModSem initial_st proj
+R1245:1262 SimComp.HoareDef SModSem initial_st proj
+R1180:1192 SimComp.tutorial.singleton.Singleton1 <> SingletonSbtb def
+R1267:1269 ITree.Core.ITreeDefinition <> Ret syndef
+R1273:1275 SimComp.Any <> :::x_'↑' not
+R1271:1272 Coq.Init.Datatypes <> tt constr
+R1226:1229 SimComp.IPM <> OwnM def
+R1231:1235 SimComp.tutorial.singleton.SingletonRA <> Ready def
+def 1300:1309 <> SSingleton
+R1312:1317 SimComp.HoareDef SMod t rec
+R1335:1349 SimComp.HoareDef SMod get_modsem proj
+R1335:1349 SimComp.HoareDef SMod get_modsem proj
+R1335:1349 SimComp.HoareDef SMod get_modsem proj
+R1384:1390 SimComp.HoareDef SMod sk proj
+R1384:1390 SimComp.HoareDef SMod sk proj
+R1363:1375 SimComp.tutorial.singleton.Singleton1 <> SSingletonSem def
+R1395:1395 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1418:1418 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1396:1396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1408:1409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1417:1417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1414:1416 SimComp.Any <> :::x_'↑' not
+R1410:1413 SimComp.definition.ImpPrelude <> Gfun constr
+var 1441:1449 SPC GlobalStb
+R1456:1459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1452:1455 SimComp.Skeleton Sk t meth
+R1465:1468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1460:1464 SimComp.Skeleton <> gname syndef
+R1469:1474 Coq.Init.Datatypes <> option ind
+R1476:1480 SimComp.HoareDef <> fspec rec
+def 1496:1504 <> Singleton
+R1507:1512 SimComp.HoareDef HMod t rec
+R1518:1529 SimComp.HoareDef SMod to_hmod def
+R1531:1539 SimComp.tutorial.singleton.Singleton1 <> SPC.GlobalStb var
+R1542:1551 SimComp.tutorial.singleton.Singleton1 <> SSingleton def
+R1559:1561 SimComp.tutorial.singleton.Singleton1 SPC <> sec

@@ -1,0 +1,344 @@
+DIGEST a4557442fdc1dfb54998852b12a1a07a
+FSimComp.tutorial.adder.AdderIMproof
+R34:39 SimComp.tutorial.adder.AdderI <> <> lib
+R41:46 SimComp.tutorial.adder.AdderM <> <> lib
+R48:55 SimComp.tutorial.slowadd.SlowAdd1 <> <> lib
+R57:64 SimComp.HoareDef <> <> lib
+R66:74 SimComp.SimModSem <> <> lib
+R76:89 SimComp.SimModSemFacts <> <> lib
+R107:112 SimComp.Coqlib <> <> lib
+R130:139 SimComp.definition.ImpPrelude <> <> lib
+R157:164 SimComp.Skeleton <> <> lib
+R182:184 SimComp.PCM <> <> lib
+R202:207 SimComp.ModSem <> <> lib
+R209:215 SimComp.ModSemE <> <> lib
+R217:224 SimComp.Behavior <> <> lib
+R242:261 Coq.Relations.Relation_Definitions <> <> lib
+R279:296 Coq.Relations.Relation_Operators <> <> lib
+R314:326 Coq.Classes.RelationPairs <> <> lib
+R360:376 ITree.Events.MapDefault <> <> lib
+R411:421 ExtLib.Core.RelDec <> <> lib
+R428:442 ExtLib.Structures.Maps <> <> lib
+R449:466 ExtLib.Data.Map.FMapAList <> <> lib
+R484:491 SimComp.HTactics <> <> lib
+R493:501 SimComp.ProofMode <> <> lib
+R503:505 SimComp.IPM <> <> lib
+R523:529 SimComp.OpenDef <> <> lib
+R547:549 SimComp.STB <> <> lib
+R568:577 SimComp.IProofMode <> <> lib
+R579:582 SimComp.IRed <> <> lib
+R584:591 SimComp.ITactics <> <> lib
+R610:614 SimComp.sProp <> <> lib
+R616:621 SimComp.sWorld <> <> lib
+R623:627 SimComp.World <> <> lib
+R629:631 SimComp.SRF <> <> lib
+R660:665 stdpp.coPset <> <> lib
+R667:670 stdpp.gmap <> <> lib
+R672:681 stdpp.namespaces <> <> lib
+sec 747:749 <> PRF
+R769:775 SimComp.sWorld CtxWD t class
+binder 765:766 <> _W:15
+var 791:799 PRF GlobalStb
+R806:809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R802:805 SimComp.Skeleton Sk t meth
+R815:818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R810:814 SimComp.ModSemE <> gname syndef
+R819:824 Coq.Init.Datatypes <> option ind
+R826:830 SimComp.HoareDef <> fspec rec
+var 849:861 PRF GlobalStb_add
+R864:870 stdpp.base <> ::type_scope:'forall'_x_'..'_x_','_x not
+R873:880 stdpp.base <> ::type_scope:'forall'_x_'..'_x_','_x not
+binder 871:872 <> sk:17
+R899:901 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R881:889 SimComp.tutorial.adder.AdderIMproof <> PRF.GlobalStb var
+R891:892 SimComp.tutorial.adder.AdderIMproof <> sk:17 var
+R902:905 Coq.Init.Datatypes <> Some constr
+R907:914 SimComp.tutorial.slowadd.SlowAdd1 <> add_spec def
+prf 966:978 <> APC_start_clo
+binder 984:984 <> I:19
+binder 986:988 <> fls:20
+binder 990:992 <> flt:21
+binder 994:994 <> r:22
+binder 996:996 <> g:23
+binder 998:999 <> ps:24
+binder 1001:1002 <> pt:25
+binder 1005:1005 <> R:26
+binder 1008:1009 <> RR:27
+binder 1011:1016 <> st_src:28
+binder 1018:1022 <> k_src:29
+binder 1024:1030 <> sti_tgt:30
+binder 1038:1044 <> at_most:31
+binder 1046:1046 <> o:32
+binder 1048:1050 <> stb:33
+R1169:1182 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R1062:1065 SimComp.IProofMode <> isim def
+R1069:1069 SimComp.tutorial.adder.AdderIMproof <> I:19 var
+R1071:1073 SimComp.tutorial.adder.AdderIMproof <> fls:20 var
+R1075:1077 SimComp.tutorial.adder.AdderIMproof <> flt:21 var
+R1079:1079 SimComp.tutorial.adder.AdderIMproof <> r:22 var
+R1081:1081 SimComp.tutorial.adder.AdderIMproof <> g:23 var
+R1083:1083 SimComp.tutorial.adder.AdderIMproof <> R:26 var
+R1085:1086 SimComp.tutorial.adder.AdderIMproof <> RR:27 var
+R1088:1091 Coq.Init.Datatypes <> true constr
+R1093:1094 SimComp.tutorial.adder.AdderIMproof <> pt:25 var
+R1096:1096 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1103:1104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1160:1160 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1097:1102 SimComp.tutorial.adder.AdderIMproof <> st_src:28 var
+R1150:1154 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1123:1128 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1149:1149 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1105:1108 SimComp.HoareDef <> _APC def
+R1122:1122 SimComp.tutorial.adder.AdderIMproof <> o:32 var
+R1114:1120 SimComp.tutorial.adder.AdderIMproof <> at_most:31 var
+R1110:1112 SimComp.tutorial.adder.AdderIMproof <> stb:33 var
+binder 1133:1133 <> x:34
+R1138:1143 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R1144:1146 ITree.Core.ITreeDefinition <> Ret syndef
+R1148:1148 SimComp.tutorial.adder.AdderIMproof <> x:34 var
+R1155:1159 SimComp.tutorial.adder.AdderIMproof <> k_src:29 var
+R1162:1168 SimComp.tutorial.adder.AdderIMproof <> sti_tgt:30 var
+R1184:1187 SimComp.IProofMode <> isim def
+R1191:1191 SimComp.tutorial.adder.AdderIMproof <> I:19 var
+R1193:1195 SimComp.tutorial.adder.AdderIMproof <> fls:20 var
+R1197:1199 SimComp.tutorial.adder.AdderIMproof <> flt:21 var
+R1201:1201 SimComp.tutorial.adder.AdderIMproof <> r:22 var
+R1203:1203 SimComp.tutorial.adder.AdderIMproof <> g:23 var
+R1205:1205 SimComp.tutorial.adder.AdderIMproof <> R:26 var
+R1207:1208 SimComp.tutorial.adder.AdderIMproof <> RR:27 var
+R1210:1211 SimComp.tutorial.adder.AdderIMproof <> ps:24 var
+R1213:1214 SimComp.tutorial.adder.AdderIMproof <> pt:25 var
+R1216:1216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1223:1224 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1272:1272 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1217:1222 SimComp.tutorial.adder.AdderIMproof <> st_src:28 var
+R1262:1266 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1225:1240 SimComp.HoareDef <> interp_hEs_hAGEs def
+R1249:1255 ITree.Core.Subevent <> trigger syndef
+R1257:1260 SimComp.HoareDef <> hAPC constr
+R1246:1246 SimComp.tutorial.adder.AdderIMproof <> o:32 var
+R1242:1244 SimComp.tutorial.adder.AdderIMproof <> stb:33 var
+R1267:1271 SimComp.tutorial.adder.AdderIMproof <> k_src:29 var
+R1274:1280 SimComp.tutorial.adder.AdderIMproof <> sti_tgt:30 var
+R1303:1318 SimComp.HoareDef <> interp_hEs_hAGEs def
+R1330:1343 SimComp.ITreelib <> interp_trigger thm
+R1330:1343 SimComp.ITreelib <> interp_trigger thm
+R1382:1389 SimComp.HoareDef <> HoareAPC def
+prf 1480:1491 <> APC_stop_clo
+binder 1497:1497 <> I:35
+binder 1499:1501 <> fls:36
+binder 1503:1505 <> flt:37
+binder 1507:1507 <> r:38
+binder 1509:1509 <> g:39
+binder 1511:1512 <> ps:40
+binder 1514:1515 <> pt:41
+binder 1518:1518 <> R:42
+binder 1521:1522 <> RR:43
+binder 1524:1529 <> st_src:44
+binder 1531:1535 <> k_src:45
+binder 1537:1543 <> sti_tgt:46
+binder 1551:1557 <> at_most:47
+binder 1559:1559 <> o:48
+binder 1561:1563 <> stb:49
+R1634:1647 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R1574:1577 SimComp.IProofMode <> isim def
+R1581:1581 SimComp.tutorial.adder.AdderIMproof <> I:35 var
+R1583:1585 SimComp.tutorial.adder.AdderIMproof <> fls:36 var
+R1587:1589 SimComp.tutorial.adder.AdderIMproof <> flt:37 var
+R1591:1591 SimComp.tutorial.adder.AdderIMproof <> r:38 var
+R1593:1593 SimComp.tutorial.adder.AdderIMproof <> g:39 var
+R1595:1595 SimComp.tutorial.adder.AdderIMproof <> R:42 var
+R1597:1598 SimComp.tutorial.adder.AdderIMproof <> RR:43 var
+R1600:1603 Coq.Init.Datatypes <> true constr
+R1605:1606 SimComp.tutorial.adder.AdderIMproof <> pt:41 var
+R1608:1608 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1615:1616 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1625:1625 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1609:1614 SimComp.tutorial.adder.AdderIMproof <> st_src:44 var
+R1617:1621 SimComp.tutorial.adder.AdderIMproof <> k_src:45 var
+R1623:1624 Coq.Init.Datatypes <> tt constr
+R1627:1633 SimComp.tutorial.adder.AdderIMproof <> sti_tgt:46 var
+R1649:1652 SimComp.IProofMode <> isim def
+R1656:1656 SimComp.tutorial.adder.AdderIMproof <> I:35 var
+R1658:1660 SimComp.tutorial.adder.AdderIMproof <> fls:36 var
+R1662:1664 SimComp.tutorial.adder.AdderIMproof <> flt:37 var
+R1666:1666 SimComp.tutorial.adder.AdderIMproof <> r:38 var
+R1668:1668 SimComp.tutorial.adder.AdderIMproof <> g:39 var
+R1670:1670 SimComp.tutorial.adder.AdderIMproof <> R:42 var
+R1672:1673 SimComp.tutorial.adder.AdderIMproof <> RR:43 var
+R1675:1676 SimComp.tutorial.adder.AdderIMproof <> ps:40 var
+R1678:1679 SimComp.tutorial.adder.AdderIMproof <> pt:41 var
+R1681:1681 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1688:1689 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1747:1747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1682:1687 SimComp.tutorial.adder.AdderIMproof <> st_src:44 var
+R1708:1713 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1746:1746 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1690:1693 SimComp.HoareDef <> _APC def
+R1707:1707 SimComp.tutorial.adder.AdderIMproof <> o:48 var
+R1699:1705 SimComp.tutorial.adder.AdderIMproof <> at_most:47 var
+R1695:1697 SimComp.tutorial.adder.AdderIMproof <> stb:49 var
+binder 1718:1718 <> x:50
+R1723:1723 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1735:1740 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1724:1729 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R1730:1732 ITree.Core.ITreeDefinition <> Ret syndef
+R1734:1734 SimComp.tutorial.adder.AdderIMproof <> x:50 var
+R1741:1745 SimComp.tutorial.adder.AdderIMproof <> k_src:45 var
+R1749:1755 SimComp.tutorial.adder.AdderIMproof <> sti_tgt:46 var
+R1818:1827 SimComp.HoareDef <> unfold_APC thm
+R1818:1827 SimComp.HoareDef <> unfold_APC thm
+R1859:1862 Coq.Init.Datatypes <> true constr
+prf 1898:1909 <> APC_step_clo
+binder 1915:1915 <> I:51
+binder 1917:1919 <> fls:52
+binder 1921:1923 <> flt:53
+binder 1925:1925 <> r:54
+binder 1927:1927 <> g:55
+binder 1929:1930 <> ps:56
+binder 1932:1933 <> pt:57
+binder 1936:1936 <> R:58
+binder 1939:1940 <> RR:59
+binder 1942:1947 <> st_src:60
+binder 1949:1953 <> k_src:61
+binder 1955:1961 <> sti_tgt:62
+binder 1969:1975 <> at_most:63
+binder 1977:1977 <> o:64
+binder 1979:1981 <> stb:65
+binder 1983:1986 <> next:66
+binder 1988:1989 <> fn:67
+binder 1991:1995 <> vargs:68
+binder 1997:1999 <> fsp:69
+R2018:2020 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2012:2014 SimComp.tutorial.adder.AdderIMproof <> stb:65 var
+R2016:2017 SimComp.tutorial.adder.AdderIMproof <> fn:67 var
+R2021:2024 Coq.Init.Datatypes <> Some constr
+R2026:2028 SimComp.tutorial.adder.AdderIMproof <> fsp:69 var
+binder 2006:2009 <> SPEC:70
+R2047:2049 Ordinal.Ordinal <> ::ord_scope:x_'<'_x not
+R2043:2046 SimComp.tutorial.adder.AdderIMproof <> next:66 var
+R2050:2056 SimComp.tutorial.adder.AdderIMproof <> at_most:63 var
+binder 2036:2039 <> NEXT:71
+R2222:2235 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R2073:2076 SimComp.IProofMode <> isim def
+R2080:2080 SimComp.tutorial.adder.AdderIMproof <> I:51 var
+R2082:2084 SimComp.tutorial.adder.AdderIMproof <> fls:52 var
+R2086:2088 SimComp.tutorial.adder.AdderIMproof <> flt:53 var
+R2090:2090 SimComp.tutorial.adder.AdderIMproof <> r:54 var
+R2092:2092 SimComp.tutorial.adder.AdderIMproof <> g:55 var
+R2094:2094 SimComp.tutorial.adder.AdderIMproof <> R:58 var
+R2096:2097 SimComp.tutorial.adder.AdderIMproof <> RR:59 var
+R2099:2102 Coq.Init.Datatypes <> true constr
+R2104:2105 SimComp.tutorial.adder.AdderIMproof <> pt:57 var
+R2107:2107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2114:2115 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2213:2213 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2108:2113 SimComp.tutorial.adder.AdderIMproof <> st_src:60 var
+R2203:2207 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2176:2181 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2202:2202 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2145:2150 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2175:2175 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2116:2124 SimComp.HoareDef <> HoareCall def
+R2140:2144 SimComp.tutorial.adder.AdderIMproof <> vargs:68 var
+R2137:2138 SimComp.tutorial.adder.AdderIMproof <> fn:67 var
+R2133:2135 SimComp.tutorial.adder.AdderIMproof <> fsp:69 var
+R2131:2131 SimComp.tutorial.adder.AdderIMproof <> o:64 var
+R2126:2129 Coq.Init.Datatypes <> true constr
+R2160:2163 SimComp.HoareDef <> _APC def
+R2174:2174 SimComp.tutorial.adder.AdderIMproof <> o:64 var
+R2169:2172 SimComp.tutorial.adder.AdderIMproof <> next:66 var
+R2165:2167 SimComp.tutorial.adder.AdderIMproof <> stb:65 var
+binder 2186:2186 <> x:72
+R2191:2196 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R2197:2199 ITree.Core.ITreeDefinition <> Ret syndef
+R2201:2201 SimComp.tutorial.adder.AdderIMproof <> x:72 var
+R2208:2212 SimComp.tutorial.adder.AdderIMproof <> k_src:61 var
+R2215:2221 SimComp.tutorial.adder.AdderIMproof <> sti_tgt:62 var
+R2237:2240 SimComp.IProofMode <> isim def
+R2244:2244 SimComp.tutorial.adder.AdderIMproof <> I:51 var
+R2246:2248 SimComp.tutorial.adder.AdderIMproof <> fls:52 var
+R2250:2252 SimComp.tutorial.adder.AdderIMproof <> flt:53 var
+R2254:2254 SimComp.tutorial.adder.AdderIMproof <> r:54 var
+R2256:2256 SimComp.tutorial.adder.AdderIMproof <> g:55 var
+R2258:2258 SimComp.tutorial.adder.AdderIMproof <> R:58 var
+R2260:2261 SimComp.tutorial.adder.AdderIMproof <> RR:59 var
+R2263:2264 SimComp.tutorial.adder.AdderIMproof <> ps:56 var
+R2266:2267 SimComp.tutorial.adder.AdderIMproof <> pt:57 var
+R2269:2269 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2276:2277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2335:2335 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2270:2275 SimComp.tutorial.adder.AdderIMproof <> st_src:60 var
+R2296:2301 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2334:2334 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2278:2281 SimComp.HoareDef <> _APC def
+R2295:2295 SimComp.tutorial.adder.AdderIMproof <> o:64 var
+R2287:2293 SimComp.tutorial.adder.AdderIMproof <> at_most:63 var
+R2283:2285 SimComp.tutorial.adder.AdderIMproof <> stb:65 var
+binder 2306:2306 <> x:73
+R2311:2311 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2323:2328 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2312:2317 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R2318:2320 ITree.Core.ITreeDefinition <> Ret syndef
+R2322:2322 SimComp.tutorial.adder.AdderIMproof <> x:73 var
+R2329:2333 SimComp.tutorial.adder.AdderIMproof <> k_src:61 var
+R2337:2343 SimComp.tutorial.adder.AdderIMproof <> sti_tgt:62 var
+R2419:2428 SimComp.HoareDef <> unfold_APC thm
+R2419:2428 SimComp.HoareDef <> unfold_APC thm
+R2460:2464 Coq.Init.Datatypes <> false constr
+R2517:2525 SimComp.ModSemE <> guarantee def
+R2574:2574 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2577:2578 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2584:2584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+var 2710:2712 PRF Ist
+R2720:2723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2715:2719 SimComp.Any Any t defax
+R2729:2732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2724:2728 SimComp.Any Any t defax
+R2733:2737 SimComp.IPM <> iProp canonstruc
+binder 2755:2760 <> st_src:74
+binder 2762:2767 <> st_tgt:75
+R2784:2786 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R2825:2827 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R2801:2804 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2793:2795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2787:2792 SimComp.tutorial.adder.AdderIMproof <> st_tgt:75 var
+R2798:2800 SimComp.Any <> :::x_'↑' not
+R2796:2797 Coq.Init.Datatypes <> tt constr
+R2811:2813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2805:2810 SimComp.tutorial.adder.AdderIMproof <> st_src:74 var
+R2822:2824 SimComp.Any <> :::x_'↑' not
+R2816:2817 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2818:2818 Coq.Numbers.BinNums <> Z ind
+prf 2845:2847 <> sim
+R2850:2861 SimComp.IProofMode HModPair sim indrec
+R2901:2903 SimComp.tutorial.adder.AdderIMproof <> PRF.Ist var
+R2888:2898 SimComp.tutorial.adder.AdderI <> Main def
+R2864:2874 SimComp.tutorial.adder.AdderM <> Main def
+R2876:2884 SimComp.tutorial.adder.AdderIMproof <> PRF.GlobalStb var
+R2986:2994 SimComp.tutorial.adder.AdderM <> main_spec def
+R2997:3001 SimComp.ModSem <> cfunU def
+R3004:3008 SimComp.tutorial.adder.AdderM <> mainM def
+R3011:3015 SimComp.tutorial.adder.AdderI <> mainF def
+R3018:3029 SimComp.HoareDef <> interp_sb_hp def
+R3032:3039 SimComp.HoareDef <> HoareFun def
+R3042:3047 SimComp.ModSem <> ccallU def
+R3133:3145 SimComp.tutorial.adder.AdderIMproof <> APC_start_clo thm
+R3133:3145 SimComp.tutorial.adder.AdderIMproof <> APC_start_clo thm
+R3196:3207 SimComp.tutorial.adder.AdderIMproof <> APC_step_clo thm
+R3196:3207 SimComp.tutorial.adder.AdderIMproof <> APC_step_clo thm
+R3225:3237 SimComp.tutorial.adder.AdderIMproof <> PRF.GlobalStb_add var
+R3225:3237 SimComp.tutorial.adder.AdderIMproof <> PRF.GlobalStb_add var
+R3272:3291 Ordinal.Arithmetic OrdArith lt_from_nat thm
+R3272:3291 Ordinal.Arithmetic OrdArith lt_from_nat thm
+R3320:3328 SimComp.HoareDef <> HoareCall def
+R3397:3403 SimComp.IProofMode <> mk_meta constr
+R3411:3411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3413:3414 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3416:3417 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3419:3419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3536:3547 SimComp.tutorial.adder.AdderIMproof <> APC_stop_clo thm
+R3536:3547 SimComp.tutorial.adder.AdderIMproof <> APC_stop_clo thm
+R3633:3651 SimComp.Any Any upcast_downcast defax
+R3633:3651 SimComp.Any Any upcast_downcast defax
+R3782:3784 SimComp.tutorial.adder.AdderIMproof PRF <> sec

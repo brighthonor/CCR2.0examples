@@ -1,0 +1,463 @@
+DIGEST fc0f09da9dce087d137d377f4e154ddf
+FSimComp.tutorial.singleton.Singleton01proof
+R31:38 SimComp.HoareDef <> <> lib
+R40:46 SimComp.OpenDef <> <> lib
+R48:50 SimComp.STB <> <> lib
+R52:60 SimComp.SimModSem <> <> lib
+R78:85 SimComp.ITreelib <> <> lib
+R103:108 SimComp.Coqlib <> <> lib
+R126:135 SimComp.definition.ImpPrelude <> <> lib
+R153:160 SimComp.Skeleton <> <> lib
+R178:180 SimComp.PCM <> <> lib
+R198:203 SimComp.ModSem <> <> lib
+R205:212 SimComp.Behavior <> <> lib
+R214:220 SimComp.ModSemE <> <> lib
+R238:257 Coq.Relations.Relation_Definitions <> <> lib
+R276:283 SimComp.HTactics <> <> lib
+R285:293 SimComp.ProofMode <> <> lib
+R295:303 SimComp.Invariant <> <> lib
+R305:307 SimComp.IPM <> <> lib
+R325:329 SimComp.sProp <> <> lib
+R331:336 SimComp.sWorld <> <> lib
+R338:342 SimComp.World <> <> lib
+R344:346 SimComp.SRF <> <> lib
+R364:373 SimComp.IProofMode <> <> lib
+R375:382 SimComp.ITactics <> <> lib
+R384:387 SimComp.IRed <> <> lib
+R389:402 SimComp.SimModSemFacts <> <> lib
+R431:436 stdpp.coPset <> <> lib
+R438:441 stdpp.gmap <> <> lib
+R443:452 stdpp.namespaces <> <> lib
+R471:480 SimComp.tutorial.singleton.Singleton0 <> <> lib
+R482:491 SimComp.tutorial.singleton.Singleton1 <> <> lib
+R493:503 SimComp.tutorial.singleton.SingletonRA <> <> lib
+R538:554 ITree.Events.MapDefault <> <> lib
+R589:599 ExtLib.Core.RelDec <> <> lib
+R606:620 ExtLib.Structures.Maps <> <> lib
+R627:644 ExtLib.Data.Map.FMapAList <> <> lib
+sec 681:683 <> PRF
+R703:715 SimComp.tutorial.singleton.SingletonRA SingletonRA t class
+binder 699:700 <> _S:17
+var 731:739 PRF GlobalStb
+R746:749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R742:745 SimComp.Skeleton Sk t meth
+R755:758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R750:754 SimComp.ModSemE <> gname syndef
+R759:764 Coq.Init.Datatypes <> option ind
+R766:770 SimComp.HoareDef <> fspec rec
+var 780:782 PRF Ist
+R790:793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R785:789 SimComp.Any Any t defax
+R799:802 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R794:798 SimComp.Any Any t defax
+R803:807 SimComp.IPM <> iProp canonstruc
+binder 825:830 <> st_src:19
+binder 832:837 <> st_tgt:20
+R854:854 iris.bi.interface <> ::bi_scope:x_'∨'_x not
+R897:917 iris.bi.interface <> ::bi_scope:x_'∨'_x not
+R991:991 iris.bi.interface <> ::bi_scope:x_'∨'_x not
+R881:884 SimComp.IPM <> :::x_'**'_x not
+R855:857 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R878:880 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R864:866 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R858:863 SimComp.tutorial.singleton.Singleton01proof <> st_tgt:20 var
+R875:877 SimComp.Any <> :::x_'↑' not
+R869:870 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R871:871 Coq.Numbers.BinNums <> Z ind
+R885:888 SimComp.IPM <> OwnM def
+R891:895 SimComp.tutorial.singleton.SingletonRA <> Ready def
+R975:978 SimComp.IPM <> :::x_'**'_x not
+R918:920 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R972:974 iris.bi.interface <> ::bi_scope:'⌜'_x_'⌝' not
+R921:927 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R932:933 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R931:931 Coq.Numbers.BinNums <> Z ind
+binder 928:928 <> m:21
+R940:943 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R935:938 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R934:934 SimComp.tutorial.singleton.Singleton01proof <> m:21 var
+R963:965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R944:955 SimComp.Any Any downcast defax
+R957:962 SimComp.tutorial.singleton.Singleton01proof <> st_tgt:20 var
+R966:969 Coq.Init.Datatypes <> Some constr
+R971:971 SimComp.tutorial.singleton.Singleton01proof <> m:21 var
+R979:982 SimComp.IPM <> OwnM def
+R985:989 SimComp.tutorial.singleton.SingletonRA <> Fired def
+prf 1041:1053 <> APC_start_clo
+binder 1059:1059 <> I:22
+binder 1061:1063 <> fls:23
+binder 1065:1067 <> flt:24
+binder 1069:1069 <> r:25
+binder 1071:1071 <> g:26
+binder 1073:1074 <> ps:27
+binder 1076:1077 <> pt:28
+binder 1080:1080 <> R:29
+binder 1083:1084 <> RR:30
+binder 1086:1091 <> st_src:31
+binder 1093:1097 <> k_src:32
+binder 1099:1105 <> sti_tgt:33
+binder 1113:1119 <> at_most:34
+binder 1121:1121 <> o:35
+binder 1123:1125 <> stb:36
+R1246:1264 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R1139:1142 SimComp.IProofMode <> isim def
+R1146:1146 SimComp.tutorial.singleton.Singleton01proof <> I:22 var
+R1148:1150 SimComp.tutorial.singleton.Singleton01proof <> fls:23 var
+R1152:1154 SimComp.tutorial.singleton.Singleton01proof <> flt:24 var
+R1156:1156 SimComp.tutorial.singleton.Singleton01proof <> r:25 var
+R1158:1158 SimComp.tutorial.singleton.Singleton01proof <> g:26 var
+R1160:1160 SimComp.tutorial.singleton.Singleton01proof <> R:29 var
+R1162:1163 SimComp.tutorial.singleton.Singleton01proof <> RR:30 var
+R1165:1168 Coq.Init.Datatypes <> true constr
+R1170:1171 SimComp.tutorial.singleton.Singleton01proof <> pt:28 var
+R1173:1173 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1180:1181 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1237:1237 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1174:1179 SimComp.tutorial.singleton.Singleton01proof <> st_src:31 var
+R1227:1231 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1200:1205 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1226:1226 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1182:1185 SimComp.HoareDef <> _APC def
+R1199:1199 SimComp.tutorial.singleton.Singleton01proof <> o:35 var
+R1191:1197 SimComp.tutorial.singleton.Singleton01proof <> at_most:34 var
+R1187:1189 SimComp.tutorial.singleton.Singleton01proof <> stb:36 var
+binder 1210:1210 <> x:37
+R1215:1220 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R1221:1223 ITree.Core.ITreeDefinition <> Ret syndef
+R1225:1225 SimComp.tutorial.singleton.Singleton01proof <> x:37 var
+R1232:1236 SimComp.tutorial.singleton.Singleton01proof <> k_src:32 var
+R1239:1245 SimComp.tutorial.singleton.Singleton01proof <> sti_tgt:33 var
+R1266:1269 SimComp.IProofMode <> isim def
+R1273:1273 SimComp.tutorial.singleton.Singleton01proof <> I:22 var
+R1275:1277 SimComp.tutorial.singleton.Singleton01proof <> fls:23 var
+R1279:1281 SimComp.tutorial.singleton.Singleton01proof <> flt:24 var
+R1283:1283 SimComp.tutorial.singleton.Singleton01proof <> r:25 var
+R1285:1285 SimComp.tutorial.singleton.Singleton01proof <> g:26 var
+R1287:1287 SimComp.tutorial.singleton.Singleton01proof <> R:29 var
+R1289:1290 SimComp.tutorial.singleton.Singleton01proof <> RR:30 var
+R1292:1293 SimComp.tutorial.singleton.Singleton01proof <> ps:27 var
+R1295:1296 SimComp.tutorial.singleton.Singleton01proof <> pt:28 var
+R1298:1298 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1305:1306 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1354:1354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1299:1304 SimComp.tutorial.singleton.Singleton01proof <> st_src:31 var
+R1344:1348 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1307:1322 SimComp.HoareDef <> interp_hEs_hAGEs def
+R1331:1337 ITree.Core.Subevent <> trigger syndef
+R1339:1342 SimComp.HoareDef <> hAPC constr
+R1328:1328 SimComp.tutorial.singleton.Singleton01proof <> o:35 var
+R1324:1326 SimComp.tutorial.singleton.Singleton01proof <> stb:36 var
+R1349:1353 SimComp.tutorial.singleton.Singleton01proof <> k_src:32 var
+R1356:1362 SimComp.tutorial.singleton.Singleton01proof <> sti_tgt:33 var
+R1385:1400 SimComp.HoareDef <> interp_hEs_hAGEs def
+R1412:1425 SimComp.ITreelib <> interp_trigger thm
+R1412:1425 SimComp.ITreelib <> interp_trigger thm
+R1464:1471 SimComp.HoareDef <> HoareAPC def
+prf 1562:1573 <> APC_stop_clo
+binder 1579:1579 <> I:38
+binder 1581:1583 <> fls:39
+binder 1585:1587 <> flt:40
+binder 1589:1589 <> r:41
+binder 1591:1591 <> g:42
+binder 1593:1594 <> ps:43
+binder 1596:1597 <> pt:44
+binder 1600:1600 <> R:45
+binder 1603:1604 <> RR:46
+binder 1606:1611 <> st_src:47
+binder 1613:1617 <> k_src:48
+binder 1619:1625 <> sti_tgt:49
+binder 1633:1639 <> at_most:50
+binder 1641:1641 <> o:51
+binder 1643:1645 <> stb:52
+R1718:1736 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R1658:1661 SimComp.IProofMode <> isim def
+R1665:1665 SimComp.tutorial.singleton.Singleton01proof <> I:38 var
+R1667:1669 SimComp.tutorial.singleton.Singleton01proof <> fls:39 var
+R1671:1673 SimComp.tutorial.singleton.Singleton01proof <> flt:40 var
+R1675:1675 SimComp.tutorial.singleton.Singleton01proof <> r:41 var
+R1677:1677 SimComp.tutorial.singleton.Singleton01proof <> g:42 var
+R1679:1679 SimComp.tutorial.singleton.Singleton01proof <> R:45 var
+R1681:1682 SimComp.tutorial.singleton.Singleton01proof <> RR:46 var
+R1684:1687 Coq.Init.Datatypes <> true constr
+R1689:1690 SimComp.tutorial.singleton.Singleton01proof <> pt:44 var
+R1692:1692 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1699:1700 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1709:1709 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1693:1698 SimComp.tutorial.singleton.Singleton01proof <> st_src:47 var
+R1701:1705 SimComp.tutorial.singleton.Singleton01proof <> k_src:48 var
+R1707:1708 Coq.Init.Datatypes <> tt constr
+R1711:1717 SimComp.tutorial.singleton.Singleton01proof <> sti_tgt:49 var
+R1738:1741 SimComp.IProofMode <> isim def
+R1745:1745 SimComp.tutorial.singleton.Singleton01proof <> I:38 var
+R1747:1749 SimComp.tutorial.singleton.Singleton01proof <> fls:39 var
+R1751:1753 SimComp.tutorial.singleton.Singleton01proof <> flt:40 var
+R1755:1755 SimComp.tutorial.singleton.Singleton01proof <> r:41 var
+R1757:1757 SimComp.tutorial.singleton.Singleton01proof <> g:42 var
+R1759:1759 SimComp.tutorial.singleton.Singleton01proof <> R:45 var
+R1761:1762 SimComp.tutorial.singleton.Singleton01proof <> RR:46 var
+R1764:1765 SimComp.tutorial.singleton.Singleton01proof <> ps:43 var
+R1767:1768 SimComp.tutorial.singleton.Singleton01proof <> pt:44 var
+R1770:1770 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1777:1778 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1836:1836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1771:1776 SimComp.tutorial.singleton.Singleton01proof <> st_src:47 var
+R1797:1802 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1835:1835 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1779:1782 SimComp.HoareDef <> _APC def
+R1796:1796 SimComp.tutorial.singleton.Singleton01proof <> o:51 var
+R1788:1794 SimComp.tutorial.singleton.Singleton01proof <> at_most:50 var
+R1784:1786 SimComp.tutorial.singleton.Singleton01proof <> stb:52 var
+binder 1807:1807 <> x:53
+R1812:1812 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1824:1829 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R1813:1818 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R1819:1821 ITree.Core.ITreeDefinition <> Ret syndef
+R1823:1823 SimComp.tutorial.singleton.Singleton01proof <> x:53 var
+R1830:1834 SimComp.tutorial.singleton.Singleton01proof <> k_src:48 var
+R1838:1844 SimComp.tutorial.singleton.Singleton01proof <> sti_tgt:49 var
+R1907:1916 SimComp.HoareDef <> unfold_APC thm
+R1907:1916 SimComp.HoareDef <> unfold_APC thm
+R1948:1951 Coq.Init.Datatypes <> true constr
+prf 1987:1998 <> APC_step_clo
+binder 2004:2004 <> I:54
+binder 2006:2008 <> fls:55
+binder 2010:2012 <> flt:56
+binder 2014:2014 <> r:57
+binder 2016:2016 <> g:58
+binder 2018:2019 <> ps:59
+binder 2021:2022 <> pt:60
+binder 2025:2025 <> R:61
+binder 2028:2029 <> RR:62
+binder 2031:2036 <> st_src:63
+binder 2038:2042 <> k_src:64
+binder 2044:2050 <> sti_tgt:65
+binder 2058:2064 <> at_most:66
+binder 2066:2066 <> o:67
+binder 2068:2070 <> stb:68
+binder 2072:2075 <> next:69
+binder 2077:2078 <> fn:70
+binder 2080:2084 <> vargs:71
+binder 2086:2088 <> fsp:72
+R2107:2109 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2101:2103 SimComp.tutorial.singleton.Singleton01proof <> stb:68 var
+R2105:2106 SimComp.tutorial.singleton.Singleton01proof <> fn:70 var
+R2110:2113 Coq.Init.Datatypes <> Some constr
+R2115:2117 SimComp.tutorial.singleton.Singleton01proof <> fsp:72 var
+binder 2095:2098 <> SPEC:73
+R2136:2138 Ordinal.Ordinal <> ::ord_scope:x_'<'_x not
+R2132:2135 SimComp.tutorial.singleton.Singleton01proof <> next:69 var
+R2139:2145 SimComp.tutorial.singleton.Singleton01proof <> at_most:66 var
+binder 2125:2128 <> NEXT:74
+R2313:2331 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R2164:2167 SimComp.IProofMode <> isim def
+R2171:2171 SimComp.tutorial.singleton.Singleton01proof <> I:54 var
+R2173:2175 SimComp.tutorial.singleton.Singleton01proof <> fls:55 var
+R2177:2179 SimComp.tutorial.singleton.Singleton01proof <> flt:56 var
+R2181:2181 SimComp.tutorial.singleton.Singleton01proof <> r:57 var
+R2183:2183 SimComp.tutorial.singleton.Singleton01proof <> g:58 var
+R2185:2185 SimComp.tutorial.singleton.Singleton01proof <> R:61 var
+R2187:2188 SimComp.tutorial.singleton.Singleton01proof <> RR:62 var
+R2190:2193 Coq.Init.Datatypes <> true constr
+R2195:2196 SimComp.tutorial.singleton.Singleton01proof <> pt:60 var
+R2198:2198 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2205:2206 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2304:2304 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2199:2204 SimComp.tutorial.singleton.Singleton01proof <> st_src:63 var
+R2294:2298 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2267:2272 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2293:2293 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2236:2241 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2266:2266 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2207:2215 SimComp.HoareDef <> HoareCall def
+R2231:2235 SimComp.tutorial.singleton.Singleton01proof <> vargs:71 var
+R2228:2229 SimComp.tutorial.singleton.Singleton01proof <> fn:70 var
+R2224:2226 SimComp.tutorial.singleton.Singleton01proof <> fsp:72 var
+R2222:2222 SimComp.tutorial.singleton.Singleton01proof <> o:67 var
+R2217:2220 Coq.Init.Datatypes <> true constr
+R2251:2254 SimComp.HoareDef <> _APC def
+R2265:2265 SimComp.tutorial.singleton.Singleton01proof <> o:67 var
+R2260:2263 SimComp.tutorial.singleton.Singleton01proof <> next:69 var
+R2256:2258 SimComp.tutorial.singleton.Singleton01proof <> stb:68 var
+binder 2277:2277 <> x:75
+R2282:2287 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R2288:2290 ITree.Core.ITreeDefinition <> Ret syndef
+R2292:2292 SimComp.tutorial.singleton.Singleton01proof <> x:75 var
+R2299:2303 SimComp.tutorial.singleton.Singleton01proof <> k_src:64 var
+R2306:2312 SimComp.tutorial.singleton.Singleton01proof <> sti_tgt:65 var
+R2333:2336 SimComp.IProofMode <> isim def
+R2340:2340 SimComp.tutorial.singleton.Singleton01proof <> I:54 var
+R2342:2344 SimComp.tutorial.singleton.Singleton01proof <> fls:55 var
+R2346:2348 SimComp.tutorial.singleton.Singleton01proof <> flt:56 var
+R2350:2350 SimComp.tutorial.singleton.Singleton01proof <> r:57 var
+R2352:2352 SimComp.tutorial.singleton.Singleton01proof <> g:58 var
+R2354:2354 SimComp.tutorial.singleton.Singleton01proof <> R:61 var
+R2356:2357 SimComp.tutorial.singleton.Singleton01proof <> RR:62 var
+R2359:2360 SimComp.tutorial.singleton.Singleton01proof <> ps:59 var
+R2362:2363 SimComp.tutorial.singleton.Singleton01proof <> pt:60 var
+R2365:2365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2372:2373 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2431:2431 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2366:2371 SimComp.tutorial.singleton.Singleton01proof <> st_src:63 var
+R2392:2397 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2430:2430 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2374:2377 SimComp.HoareDef <> _APC def
+R2391:2391 SimComp.tutorial.singleton.Singleton01proof <> o:67 var
+R2383:2389 SimComp.tutorial.singleton.Singleton01proof <> at_most:66 var
+R2379:2381 SimComp.tutorial.singleton.Singleton01proof <> stb:68 var
+binder 2402:2402 <> x:76
+R2407:2407 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2419:2424 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R2408:2413 SimComp.ITreelib <> ::itree_scope:'tau;;'_x not
+R2414:2416 ITree.Core.ITreeDefinition <> Ret syndef
+R2418:2418 SimComp.tutorial.singleton.Singleton01proof <> x:76 var
+R2425:2429 SimComp.tutorial.singleton.Singleton01proof <> k_src:64 var
+R2433:2439 SimComp.tutorial.singleton.Singleton01proof <> sti_tgt:65 var
+R2515:2524 SimComp.HoareDef <> unfold_APC thm
+R2515:2524 SimComp.HoareDef <> unfold_APC thm
+R2556:2560 Coq.Init.Datatypes <> false constr
+R2613:2621 SimComp.ModSemE <> guarantee def
+R2670:2670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2673:2674 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2680:2680 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+prf 2760:2768 <> hcall_clo
+binder 2774:2774 <> I:77
+binder 2776:2778 <> fls:78
+binder 2780:2782 <> flt:79
+binder 2784:2784 <> r:80
+binder 2786:2786 <> g:81
+binder 2788:2789 <> ps:82
+binder 2791:2792 <> pt:83
+binder 2795:2795 <> R:84
+binder 2798:2799 <> RR:85
+binder 2801:2806 <> st_src:86
+binder 2808:2813 <> st_tgt:87
+binder 2815:2819 <> k_src:88
+binder 2821:2825 <> k_tgt:89
+binder 2831:2832 <> fn:90
+binder 2834:2841 <> varg_src:91
+binder 2843:2850 <> varg_tgt:92
+binder 2852:2852 <> o:93
+binder 2854:2854 <> X:94
+R2860:2867 SimComp.Coqlib <> shelve__ def
+R2869:2869 SimComp.tutorial.singleton.Singleton01proof <> X:94 var
+binder 2857:2857 <> x:95
+R2877:2880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2876:2876 SimComp.tutorial.singleton.Singleton01proof <> X:94 var
+R2881:2883 SimComp.HoareDef <> ord ind
+binder 2873:2873 <> D:96
+binder 2886:2886 <> P:97
+binder 2888:2888 <> Q:98
+R2920:2925 SimComp.HoareDef <> ord_lt def
+R2933:2933 SimComp.tutorial.singleton.Singleton01proof <> o:93 var
+R2928:2928 SimComp.tutorial.singleton.Singleton01proof <> D:96 var
+R2930:2930 SimComp.tutorial.singleton.Singleton01proof <> x:95 var
+binder 2915:2917 <> ORD:99
+R2947:2953 SimComp.HoareDef <> is_pure def
+R2956:2956 SimComp.tutorial.singleton.Singleton01proof <> D:96 var
+R2958:2958 SimComp.tutorial.singleton.Singleton01proof <> x:95 var
+binder 2941:2944 <> PURE:100
+R2970:2970 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R3235:3249 iris.bi.interface <> ::stdpp_scope:x_'-∗'_x not
+R2992:3003 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R2971:2971 SimComp.tutorial.singleton.Singleton01proof <> P:97 var
+R2973:2973 SimComp.tutorial.singleton.Singleton01proof <> x:95 var
+R2975:2982 SimComp.tutorial.singleton.Singleton01proof <> varg_src:91 var
+R2984:2991 SimComp.tutorial.singleton.Singleton01proof <> varg_tgt:92 var
+R3019:3031 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R3234:3234 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R3004:3004 SimComp.tutorial.singleton.Singleton01proof <> I:77 var
+R3006:3011 SimComp.tutorial.singleton.Singleton01proof <> st_src:86 var
+R3013:3018 SimComp.tutorial.singleton.Singleton01proof <> st_tgt:87 var
+R3032:3034 iris.bi.interface <> ::bi_scope:'∀'_x_'..'_x_','_x not
+R3068:3083 iris.bi.interface <> ::bi_scope:'∀'_x_'..'_x_','_x not
+binder 3035:3041 <> st_src0:101
+binder 3043:3049 <> st_tgt0:102
+binder 3051:3058 <> vret_src:103
+binder 3060:3067 <> vret_tgt:104
+R3084:3084 iris.bi.interface <> ::bi_scope:x_'-∗'_x not
+R3128:3145 iris.bi.interface <> ::bi_scope:x_'-∗'_x not
+R3106:3110 iris.bi.interface <> ::bi_scope:x_'∗'_x not
+R3085:3085 SimComp.tutorial.singleton.Singleton01proof <> Q:98 var
+R3087:3087 SimComp.tutorial.singleton.Singleton01proof <> x:95 var
+R3089:3096 SimComp.tutorial.singleton.Singleton01proof <> vret_src:103 var
+R3098:3105 SimComp.tutorial.singleton.Singleton01proof <> vret_tgt:104 var
+R3111:3111 SimComp.tutorial.singleton.Singleton01proof <> I:77 var
+R3113:3119 SimComp.tutorial.singleton.Singleton01proof <> st_src0:101 var
+R3121:3127 SimComp.tutorial.singleton.Singleton01proof <> st_tgt0:102 var
+R3147:3150 SimComp.IProofMode <> isim def
+R3154:3154 SimComp.tutorial.singleton.Singleton01proof <> I:77 var
+R3156:3158 SimComp.tutorial.singleton.Singleton01proof <> fls:78 var
+R3160:3162 SimComp.tutorial.singleton.Singleton01proof <> flt:79 var
+R3164:3164 SimComp.tutorial.singleton.Singleton01proof <> r:80 var
+R3166:3166 SimComp.tutorial.singleton.Singleton01proof <> g:81 var
+R3168:3168 SimComp.tutorial.singleton.Singleton01proof <> R:84 var
+R3170:3171 SimComp.tutorial.singleton.Singleton01proof <> RR:85 var
+R3173:3176 Coq.Init.Datatypes <> true constr
+R3178:3181 Coq.Init.Datatypes <> true constr
+R3183:3183 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3191:3192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3207:3207 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3184:3190 SimComp.tutorial.singleton.Singleton01proof <> st_src0:101 var
+R3193:3197 SimComp.tutorial.singleton.Singleton01proof <> k_src:88 var
+R3199:3206 SimComp.tutorial.singleton.Singleton01proof <> vret_src:103 var
+R3209:3209 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3217:3218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3233:3233 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3210:3216 SimComp.tutorial.singleton.Singleton01proof <> st_tgt0:102 var
+R3219:3223 SimComp.tutorial.singleton.Singleton01proof <> k_tgt:89 var
+R3225:3232 SimComp.tutorial.singleton.Singleton01proof <> vret_tgt:104 var
+R3251:3254 SimComp.IProofMode <> isim def
+R3258:3258 SimComp.tutorial.singleton.Singleton01proof <> I:77 var
+R3260:3262 SimComp.tutorial.singleton.Singleton01proof <> fls:78 var
+R3264:3266 SimComp.tutorial.singleton.Singleton01proof <> flt:79 var
+R3268:3268 SimComp.tutorial.singleton.Singleton01proof <> r:80 var
+R3270:3270 SimComp.tutorial.singleton.Singleton01proof <> g:81 var
+R3272:3272 SimComp.tutorial.singleton.Singleton01proof <> R:84 var
+R3274:3275 SimComp.tutorial.singleton.Singleton01proof <> RR:85 var
+R3277:3278 SimComp.tutorial.singleton.Singleton01proof <> ps:82 var
+R3280:3281 SimComp.tutorial.singleton.Singleton01proof <> pt:83 var
+R3283:3283 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3290:3291 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3347:3347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3284:3289 SimComp.tutorial.singleton.Singleton01proof <> st_src:86 var
+R3337:3341 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R3292:3300 SimComp.HoareDef <> HoareCall def
+R3329:3336 SimComp.tutorial.singleton.Singleton01proof <> varg_src:91 var
+R3326:3327 SimComp.tutorial.singleton.Singleton01proof <> fn:90 var
+R3310:3317 SimComp.HoareDef <> mk_fspec constr
+R3323:3323 SimComp.tutorial.singleton.Singleton01proof <> Q:98 var
+R3321:3321 SimComp.tutorial.singleton.Singleton01proof <> P:97 var
+R3319:3319 SimComp.tutorial.singleton.Singleton01proof <> D:96 var
+R3307:3307 SimComp.tutorial.singleton.Singleton01proof <> o:93 var
+R3302:3305 Coq.Init.Datatypes <> true constr
+R3342:3346 SimComp.tutorial.singleton.Singleton01proof <> k_src:88 var
+R3349:3349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3356:3357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3394:3394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3350:3355 SimComp.tutorial.singleton.Singleton01proof <> st_tgt:87 var
+R3384:3388 SimComp.ITreelib ITreeNotations2 ::itree_scope:x_'>>='_x not
+R3358:3364 ITree.Core.Subevent <> trigger syndef
+R3367:3370 SimComp.ModSemE <> Call constr
+R3375:3382 SimComp.tutorial.singleton.Singleton01proof <> varg_tgt:92 var
+R3372:3373 SimComp.tutorial.singleton.Singleton01proof <> fn:90 var
+R3389:3393 SimComp.tutorial.singleton.Singleton01proof <> k_tgt:89 var
+R3446:3454 SimComp.HoareDef <> HoareCall def
+prf 3673:3675 <> sim
+R3678:3689 SimComp.IProofMode HModPair sim indrec
+R3747:3749 SimComp.tutorial.singleton.Singleton01proof <> PRF.Ist var
+R3725:3744 SimComp.tutorial.singleton.Singleton0 <> Singleton def
+R3692:3711 SimComp.tutorial.singleton.Singleton1 <> Singleton def
+R3713:3721 SimComp.tutorial.singleton.Singleton01proof <> PRF.GlobalStb var
+R3846:3859 SimComp.tutorial.singleton.Singleton1 <> singleton_spec def
+R3862:3866 SimComp.ModSem <> cfunU def
+R3869:3878 SimComp.tutorial.singleton.Singleton1 <> singletonA def
+R3881:3890 SimComp.tutorial.singleton.Singleton0 <> singletonF def
+R3893:3904 SimComp.HoareDef <> interp_sb_hp def
+R3907:3914 SimComp.HoareDef <> HoareFun def
+R4182:4190 SimComp.tutorial.singleton.SingletonRA <> FiredBall thm
+R4182:4190 SimComp.tutorial.singleton.SingletonRA <> FiredBall thm
+R4278:4286 SimComp.tutorial.singleton.SingletonRA <> ReadyBall thm
+R4278:4286 SimComp.tutorial.singleton.SingletonRA <> ReadyBall thm
+R4378:4396 SimComp.Any Any upcast_downcast defax
+R4378:4396 SimComp.Any Any upcast_downcast defax
+R4439:4441 SimComp.tutorial.singleton.Singleton01proof PRF <> sec
